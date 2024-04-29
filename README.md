@@ -35,7 +35,7 @@ This repository contains code that evaluates the meteorological setup and rainfa
    - This code also manipulates the size of the low/high and size of the fronts to the set extent of South Louisiana.
  
 **PrecipWater.py**
-  - This python code plots precitable water amounts using archive GFS data.
+  - This python code plots precipitable water amounts using archive GFS data.
   - This first code plots preciptable water on the extent of the entire United States.
   - The second code plots precipitable water on the extent of south Louisiana to show high PW levels on August 11th, 2016.
   - Here is where I pulled the data:
