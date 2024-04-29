@@ -18,7 +18,7 @@ This repository contains code that evaluates the meteorological setup and rainfa
 - Make sure to create separate text files if you need a time that is not 00 UTC.
 - For my code, it plots the 00 UTC surface analysis on August 11th 2016 and 00 UTC on August 12th 2016.
 - GFS data: https://rda.ucar.edu/datasets/ds084.1/dataaccess/
-- Use this link to plot both the 850mb data and relative humidity data.
+ - Use this link to plot both the 850mb data and relative humidity data.
   
 **NEXRAD_Level_2_File_08_12_2016.py**
   - This code plots radar data from August 12th 2016. This code has 5 sections to       plot 5 different run times of the radar. The ouputs were then downloaded and         placed together to form a GIF.
@@ -27,11 +27,17 @@ This repository contains code that evaluates the meteorological setup and rainfa
   - This code uses Level II archived radar data from 2016 using the KLIX Slidell, LA    radar site.
 
 **Plotting_Surface_Analysis_Aug_2016.py**
-    - This python code plots a series of WPC surface analysis with the extent set to    view South Louisiana.
-    - Here is where I pulled the data:       https://www.mesonet.agron.iastate.edu/wx/afos/p.php?pil=CODSUS&e=202010201500
-    - I removed the text below a high or low with the pressure level to clean up the graphic.
-    - If you plot a series of times, download the data from a time series. In this code, I downloaded the surface analysis from August 11th 2016 through August 13th, 2016. I separated each surface anlaysis time into a separate text file and then places that file into the code to read.
-    - This code also manipulates the size of the low/high and size of the fronts to the set extent of South Louisiana.
+   - This python code plots a series of WPC surface analysis with the extent set to    view South Louisiana.
+   - Here is where I pulled the data:       https://www.mesonet.agron.iastate.edu/wx/afos/p.php?pil=CODSUS&e=202010201500
+   - I removed the text below a high or low with the pressure level to clean up the graphic.
+   - If you plot a series of times, download the data from a time series. In this code, I downloaded the surface analysis from August 11th 2016 through August 13th, 2016.
+   - I separated each surface anlaysis time into a separate text file and then places that file into the code to read.
+   - This code also manipulates the size of the low/high and size of the fronts to the set extent of South Louisiana.
  
 **PrecipWater.py**
-  
+  - This python code plots precitable water amounts using archive GFS data.
+  - This first code plots preciptable water on the extent of the entire United States.
+  - The second code plots precipitable water on the extent of south Louisiana to show high PW levels on August 11th, 2016.
+  - Here is where I pulled the data:
+  - https://rda.ucar.edu/datasets/ds084.1/dataaccess/
+  - This code uses 00Z GFS data from August 11th, 2016.
