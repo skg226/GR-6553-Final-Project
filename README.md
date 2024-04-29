@@ -17,10 +17,10 @@ This repository contains code that evaluates the meteorological setup and rainfa
 - For my code, it plots the 00 UTC surface analysis on August 11th 2016 and 00 UTC on August 12th 2016.
 - GFS data: https://rda.ucar.edu/datasets/ds084.1/dataaccess/
 - Use this link to plot both the 850mb data and relative humidity data.
-**NEXRAD_Level_2_File_08_12_2016.py**
-  -This code plots radar data from August 12th 2016. This code has 5 sections to plot 5 different run times of the radar. The ouputs were then downloaded and placed together to form a GIF.
+ **NEXRAD_Level_2_File_08_12_2016.py**
+  - This code plots radar data from August 12th 2016. This code has 5 sections to       plot 5 different run times of the radar. The ouputs were then downloaded and         placed together to form a GIF.
   - Here is where I pulled the data:
   - https://www.roc.noaa.gov/wsr88d/Level_III/Level3Info.aspx
   - This code uses Level II archived radar data from 2016 using the KLIX Slidell, LA radar site.
-**Plotting_Surface_Analysis_Aug_2016.py**
+ **Plotting_Surface_Analysis_Aug_2016.py**
     -
