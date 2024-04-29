@@ -15,7 +15,7 @@ This repository contains code that evaluates the meteorological setup and rainfa
 - This phython code plots WPC surface analysis, GFS relative humidty, and GFS 850 mb pressure lines.
 - Here is where I pulled the data:
 - WPC suface analysis: https://www.mesonet.agron.iastate.edu/wx/afos/p.php?pil=CODSUS&e=202010201500
-- Make sure to create separate text files if you need a time that is not 0 UTC.
+- Make sure to create separate text files if you need a time that is not 00 UTC.
 - For my code, it plots the 00 UTC surface analysis on August 11th 2016 and 00 UTC on August 12th 2016.
 - GFS data: https://rda.ucar.edu/datasets/ds084.1/dataaccess/
 - Use this link to plot both the 850mb data and relative humidity data.
